@@ -1,0 +1,43 @@
+.header{
+    background-image: url(https://images.unsplash.com/photo-1501843508755-af0829d48618?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1981&q=80);
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.bg-cover{
+    background-position: center center;
+    background-size: cover;
+}
+
+.bg-image{
+    background-image: url(https://images.unsplash.com/photo-1501473847452-ff688ffe7103?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
+    height: 55vh;
+    background-attachment: fixed;
+}
+
+@media (max-width: 1200px) {
+    .bg-sm-image{
+        height: 80vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .bg-sm-image{
+        height: 105vh;
+    }
+}
+
+.teamProfile-1{
+    background-image: url(https://images.unsplash.com/photo-1517800249805-f3d51bd0b07f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1632&q=80);
+    height: 238px;
+}
+
+.teamProfile-2{
+    background-image: url(https://images.unsplash.com/photo-1485713807955-e27451c05712?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
+    height: 238px;
+}
+
+.teamProfile-3{
+    background-image: url(https://images.unsplash.com/photo-1507438222021-237ff73669b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1566&q=80);
+    height: 238px;
+}
