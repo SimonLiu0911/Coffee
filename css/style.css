@@ -31,3 +31,7 @@
     height: 238px;
 }
 */
+
+.animateEffect-1, .animateEffect-2{
+    opacity: 0;
+}
