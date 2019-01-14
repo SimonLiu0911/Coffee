@@ -1,7 +1,6 @@
 $(document).ready(function () {
     $(window).scroll(function(){
         var scrollPos = $(window).scrollTop();
-        console.log(scrollPos)
         if (scrollPos > 793){
             $('.animateEffect-1').addClass('fadeInUp');
         };
